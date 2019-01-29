@@ -32,7 +32,7 @@ tf.enable_eager_execution()
 print("Eager execution: {}".format(tf.executing_eagerly()))
 
 # Set up some global values here
-content_path = 'tmp/nst/BascHill_autumn.jpg'
+content_path = 'tmp/nst/greatwall.jpg'
 style_path = 'tmp/nst/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg'
 
 def load_img(path_to_img):
@@ -350,33 +350,7 @@ def show_results(best_img, content_path, style_path, show_large_final=True):
 
 show_results(best, content_path, style_path)
 
-# best_starry_night, best_loss = run_style_transfer('D:/Development/AIClub/StyleTransfer/tmp/nst/Tuebingen_Neckarfront.jpg',
-#                                                   'D:/Development/AIClub/StyleTransfer/tmp/nst/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg')
+# best_starry_night, best_loss = run_style_transfer('tmp/nst/Tuebingen_Neckarfront.jpg',
+#                                                   'tmp/nst/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg')
 
 input()
-# best_starry_night, best_loss = run_style_transfer('D:/Development/AIClub/StyleTransfer/tmp/nst/Tuebingen_Neckarfront.jpg',
-#                                                   'D:/Development/AIClub/StyleTransfer/tmp/nst/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg')
-
-# show_results(best_starry_night, 'D:/Development/AIClub/StyleTransfer/tmp/nst/Tuebingen_Neckarfront.jpg',
-#              'D:/Development/AIClub/StyleTransfer/tmp/nst/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg')
-
-# best_poc_tubingen, best_loss = run_style_transfer('D:/Development/AIClub/StyleTransfer/tmp/nst/Tuebingen_Neckarfront.jpg', 
-#                                                   'D:/Development/AIClub/StyleTransfer/tmp/nst/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg')
-
-# show_results(best_poc_tubingen, 
-#              'D:/Development/AIClub/StyleTransfer/tmp/nst/Tuebingen_Neckarfront.jpg',
-#              'D:/Development/AIClub/StyleTransfer/tmp/nst/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg')
-
-# best_kandinsky_tubingen, best_loss = run_style_transfer('D:/Development/AIClub/StyleTransfer/tmp/nst/Tuebingen_Neckarfront.jpg', 
-#                                                   'D:/Development/AIClub/StyleTransfer/tmp/nst/Vassily_Kandinsky,_1913_-_Composition_7.jpg')
-
-# show_results(best_kandinsky_tubingen, 
-#              'D:/Development/AIClub/StyleTransfer/tmp/nst/Tuebingen_Neckarfront.jpg',
-#              'D:/Development/AIClub/StyleTransfer/tmp/nst/Vassily_Kandinsky,_1913_-_Composition_7.jpg')
-
-# best_poc_turtle, best_loss = run_style_transfer('D:/Development/AIClub/StyleTransfer/tmp/nst/Green_Sea_Turtle_grazing_seagrass.jpg', 
-#                                                   'D:/Development/AIClub/StyleTransfer/tmp/nst/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg')
-
-# show_results(best_poc_turtle, 
-#              'D:/Development/AIClub/StyleTransfer/tmp/nst/Green_Sea_Turtle_grazing_seagrass.jpg',
-#              'D:/Development/AIClub/StyleTransfer/tmp/nst/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg')
