@@ -17,7 +17,7 @@ Output Image
 
 ![OutputImage](https://raw.githubusercontent.com/Merle-Zhang/StyleTransfer/master/Example/The%20Great%20Wall/Output%20Image.png)
 
-Prcess
+Process
 
 ![Process](https://raw.githubusercontent.com/Merle-Zhang/StyleTransfer/master/Example/The%20Great%20Wall/Process.png)
 
